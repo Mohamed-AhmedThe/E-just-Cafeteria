@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-just Cafeteria</title></head>
+    <link rel="stylesheet" href="food-drink.css">
+
+<body>
+    <div class="logo">
+        <img src="ejustlogo.png" alt="E-JUST CAFETERIA Logo" width="100px" height="75px">
+        <h1 class="h1toright">DRINKS</h1>
+        <div class="menu-icon">
+          <div class="contianer">
+            <a href="#" class="toggleBox">
+                <span class="icon"></span>
+            </a>
+            <ul class="navItems">
+                <li>
+                    <a href="order.html">
+                        <span style="--g:2">home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="food.html">
+                        <span style="--g:3">food</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="login.html">
+                        <span style="--g:4">log-out</span>
+                    </a>
+                </li>
+            </ul>
+           </div>
+        
+           <script>
+            var toggleClick = document.querySelector(".toggleBox");
+            var contianer = document.querySelector(".contianer");
+            toggleClick.addEventListener('click',()=>{
+                toggleClick.classList.toggle('active');
+                contianer.classList.toggle('active');
+            })
+           </script>
+        </div>
+      </div>
+      <div class="cont">
+        <a href="#">
+            <div class="card">
+                <div class="header drink">
+                    <h2>DRINK</h2>
+                </div>
+            <img src="drinkicon.png" alt="Drinks Image" class="image">
+            </div>
+        </a>
+        <a href="#">
+            <div class="card">
+                <div class="header drink">
+                    <h2>DRINK</h2>
+                </div>
+            <img src="drinkicon.png" alt="Drinks Image" class="image">
+            </div>
+        </a>
+        <a href="#">
+            <div class="card">
+                <div class="header drink">
+                    <h2>DRINK</h2>
+                </div>
+            <img src="drinkicon.png" alt="Drinks Image" class="image">
+            </div>
+        </a>
+        <a href="#">
+            <div class="card">
+                <div class="header drink">
+                    <h2>DRINK</h2>
+                </div>
+            <img src="drinkicon.png" alt="Drinks Image" class="image">
+            </div>
+        </a>
+        <a href="#">
+            <div class="card">
+                <div class="header drink">
+                    <h2>DRINK</h2>
+                </div>
+            <img src="drinkicon.png" alt="Drinks Image" class="image">
+            </div>
+        </a>
+        <a href="#">
+            <div class="card">
+                <div class="header drink">
+                    <h2>DRINK</h2>
+                </div>
+            <img src="drinkicon.png" alt="Drinks Image" class="image">
+            </div>
+        </a>
+    </div>
+    <div class="check">
+        <a href="check.html">
+        <img src="carticon.png" alt="cert" width="50px" height="50px">
+        </a>
+    </div>
+    <source src="food-drink.js" type="">
+</body>
+</html>

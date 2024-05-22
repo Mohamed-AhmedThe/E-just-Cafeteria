@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="text.css">
+    <title>test</title>
+</head>
+<body>
+   <div class="contianer">
+    <a href="#" class="toggleBox">
+        <span class="icon"></span>
+    </a>
+    <ul class="navItems">
+        <li>
+            <a href="#">
+                <span style="--g:1">order</span>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <span style="--g:2">food</span>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <span style="--g:3">drink</span>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <span style="--g:4">log-out</span>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <span style="--g:5">home</span>
+            </a>
+        </li>
+    </ul>
+   </div>
+
+   <script>
+    var toggleClick = document.querySelector(".toggleBox");
+    var contianer = document.querySelector(".contianer");
+    toggleClick.addEventListener('click',()=>{
+        toggleClick.classList.toggle('active');
+        contianer.classList.toggle('active');
+    })
+   </script>
+</body>
+</html>

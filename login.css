@@ -1,0 +1,56 @@
+@font-face {
+	font-family: gagalin;
+	src: url(Gagalin-Regular.otf);
+}
+
+body{
+    background-color:#CDA483 ;
+    display: flex;
+    min-height: 100vh;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.body{
+    background-color: #C97F85;
+    display: flex;
+    min-height: 75vh;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 15px;
+    
+}
+
+img{
+	border-radius: 15px;
+}
+
+input[type="password"], [type="email"], [type="number"], input [type="checkbox"] {
+	width: 30vw;
+  	height: 30px;
+  	padding: 3px;
+  	font-size: 1.8rem;
+  	border: 1px solid gray;
+    margin: 10px;
+    border-radius: 9px;
+}
+
+ label[for="rememberme"]{
+    width: 30vw;
+  	height: 30px;
+  	padding: 3px;
+  	font-size: 1.8rem;
+    margin: 10px;
+}
+
+.tothelogin, button{
+	width: 100px;
+	height: 30px;
+	color: black;
+	font-family: gagalin;
+	font-size: large;
+	margin: 10px 35%;
+	border-radius: 15px;
+}
